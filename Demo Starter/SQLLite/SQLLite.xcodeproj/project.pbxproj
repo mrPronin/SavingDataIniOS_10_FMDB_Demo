@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A263D84D1CC2800700B16572 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A263D8421CC2800700B16572 /* FMDatabase.m */; };
+		A263D84E1CC2800700B16572 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A263D8441CC2800700B16572 /* FMDatabaseAdditions.m */; };
+		A263D84F1CC2800700B16572 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A263D8461CC2800700B16572 /* FMDatabasePool.m */; };
+		A263D8501CC2800700B16572 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A263D8481CC2800700B16572 /* FMDatabaseQueue.m */; };
+		A263D8511CC2800700B16572 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A263D84B1CC2800700B16572 /* FMResultSet.m */; };
+		A263D8521CC2800700B16572 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A263D84C1CC2800700B16572 /* Info.plist */; };
 		D30C14DC1BECEF9A00B75EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C14DB1BECEF9A00B75EFE /* AppDelegate.swift */; };
 		D30C14DE1BECEF9A00B75EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C14DD1BECEF9A00B75EFE /* ViewController.swift */; };
 		D30C14E11BECEF9A00B75EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30C14DF1BECEF9A00B75EFE /* Main.storyboard */; };
@@ -16,6 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A263D8411CC2800700B16572 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A263D8421CC2800700B16572 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A263D8431CC2800700B16572 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A263D8441CC2800700B16572 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A263D8451CC2800700B16572 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A263D8461CC2800700B16572 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A263D8471CC2800700B16572 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A263D8481CC2800700B16572 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A263D8491CC2800700B16572 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A263D84A1CC2800700B16572 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A263D84B1CC2800700B16572 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A263D84C1CC2800700B16572 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D30C14D81BECEF9A00B75EFE /* SQLLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30C14DB1BECEF9A00B75EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D30C14DD1BECEF9A00B75EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +57,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A263D8401CC2800700B16572 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A263D8411CC2800700B16572 /* FMDatabase.h */,
+				A263D8421CC2800700B16572 /* FMDatabase.m */,
+				A263D8431CC2800700B16572 /* FMDatabaseAdditions.h */,
+				A263D8441CC2800700B16572 /* FMDatabaseAdditions.m */,
+				A263D8451CC2800700B16572 /* FMDatabasePool.h */,
+				A263D8461CC2800700B16572 /* FMDatabasePool.m */,
+				A263D8471CC2800700B16572 /* FMDatabaseQueue.h */,
+				A263D8481CC2800700B16572 /* FMDatabaseQueue.m */,
+				A263D8491CC2800700B16572 /* FMDB.h */,
+				A263D84A1CC2800700B16572 /* FMResultSet.h */,
+				A263D84B1CC2800700B16572 /* FMResultSet.m */,
+				A263D84C1CC2800700B16572 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		D30C14CF1BECEF9A00B75EFE = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +103,7 @@
 				D30C14E71BECEF9A00B75EFE /* Info.plist */,
 				D30C14ED1BECF36700B75EFE /* libsqlite3.tbd */,
 				D30C14F31BECF9AB00B75EFE /* SQLLite-Bridging-Header.h */,
+				A263D8401CC2800700B16572 /* fmdb */,
 			);
 			path = SQLLite;
 			sourceTree = "<group>";
@@ -128,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A263D8521CC2800700B16572 /* Info.plist in Resources */,
 				D30C14E61BECEF9A00B75EFE /* LaunchScreen.storyboard in Resources */,
 				D30C14E31BECEF9A00B75EFE /* Assets.xcassets in Resources */,
 				D30C14E11BECEF9A00B75EFE /* Main.storyboard in Resources */,
@@ -141,8 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A263D84D1CC2800700B16572 /* FMDatabase.m in Sources */,
 				D30C14DE1BECEF9A00B75EFE /* ViewController.swift in Sources */,
+				A263D8511CC2800700B16572 /* FMResultSet.m in Sources */,
+				A263D84F1CC2800700B16572 /* FMDatabasePool.m in Sources */,
 				D30C14DC1BECEF9A00B75EFE /* AppDelegate.swift in Sources */,
+				A263D84E1CC2800700B16572 /* FMDatabaseAdditions.m in Sources */,
+				A263D8501CC2800700B16572 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +339,7 @@
 				D30C14EC1BECEF9A00B75EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
